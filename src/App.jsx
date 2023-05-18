@@ -8,7 +8,7 @@ function App() {
   return (
     <>
 
-      <h1>Mi primer componente</h1>
+      <h1>React Commerce</h1>
       <ProductList/>
       <Counter />
 
