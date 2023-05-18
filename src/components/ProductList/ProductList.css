@@ -1,0 +1,9 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card h4{
+    margin: 5px;
+}
