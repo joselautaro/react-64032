@@ -1,0 +1,13 @@
+.link{
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    background-color: rgb(114, 105, 71);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}

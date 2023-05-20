@@ -25,7 +25,7 @@ export const ProductList = () => {
 
 
     return (
-        <div>
+        <>
 
             {
                 loading
@@ -49,6 +49,6 @@ export const ProductList = () => {
                         </div>
                     )
             }
-        </div>
+        </>
     )
 }

@@ -1,17 +1,31 @@
-import './App.css'
+import { Cart } from './components/Cart/Cart'
 import { Counter } from './components/Counter/Counter'
+import { Form } from './components/Form/Form'
+import { MiSegundoComponente } from './components/MiSegundoComponente/MiSegundoComponente'
+import { NavBar } from './components/NavBar/NavBar'
 import { ProductList } from './components/ProductList/ProductList'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'
 
 
 function App() {
 
   return (
     <>
-
-      <h1>React Commerce</h1>
-      <ProductList/>
-      <Counter />
-
+      <Router>
+      <NavBar/>
+        <Routes>
+          {/* <Route path='/menu' element={<NavBar/>}/> */}
+          <Route path='/' element={<ProductList/>}/>
+          <Route path='/counter' element={<Counter/>}/>
+          <Route path='/segundo' element={<MiSegundoComponente/>}/>
+          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/form' element={<Form/>}/>
+        </Routes>
+      </Router>
     </>
   )
 }
