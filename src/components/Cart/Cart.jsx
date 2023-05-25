@@ -1,5 +1,6 @@
 import React from 'react'
 import './cart.css'
+import { CartScreen } from '../CartScreen/CartScreen'
 import {BiCartDownload} from 'react-icons/bi'
 
 export const Cart = () => {

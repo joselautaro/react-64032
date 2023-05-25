@@ -1,4 +1,4 @@
-import { Cart } from './components/Cart/Cart'
+import { CartScreen } from './components/CartScreen/CartScreen'
 import { Counter } from './components/Counter/Counter'
 import { Form } from './components/Form/Form'
 import { MiSegundoComponente } from './components/MiSegundoComponente/MiSegundoComponente'
@@ -23,7 +23,7 @@ function App() {
           <Route path='/productos/:categoryId' element={<ProductList/>}/>
           <Route path='/counter' element={<Counter/>}/>
           <Route path='/segundo' element={<MiSegundoComponente/>}/>
-          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/cart' element={<CartScreen/>}/>
           <Route path='/form' element={<Form/>}/>
         </Routes>
       </Router>

@@ -22,8 +22,8 @@ export const Counter =  () =>{
     return(
         <>
             <h3>{counter}</h3>
-            <button style={{margin: '5px'}} onClick={handleAdd}><MdAddCircle/></button>
-            <button onClick={handleRemove}><IoMdRemoveCircleOutline/></button>
+            <button className='btn btn-info' style={{margin: '5px'}} onClick={handleAdd}><MdAddCircle/></button>
+            <button className='btn btn-info' onClick={handleRemove}><IoMdRemoveCircleOutline/></button>
         </>
     )
 }

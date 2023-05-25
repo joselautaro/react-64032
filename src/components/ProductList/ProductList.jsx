@@ -32,7 +32,7 @@ export const ProductList = () => {
             .finally(() => {
                 setLoading(false)
             })
-    }, [])
+    }, [categoryId])
 
 
     return (
