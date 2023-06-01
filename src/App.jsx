@@ -3,6 +3,7 @@ import { Counter } from './components/Counter/Counter'
 import { Form } from './components/Form/Form'
 import { MiSegundoComponente } from './components/MiSegundoComponente/MiSegundoComponente'
 import { NavBar } from './components/NavBar/NavBar'
+import { PokeApi } from './components/PokeApi/PokeApi'
 import { ProductList } from './components/ProductList/ProductList'
 import {
   BrowserRouter as Router,
@@ -22,6 +23,7 @@ function App() {
           <Route path='/' element={<ProductList/>}/>
           <Route path='/productos/:categoryId' element={<ProductList/>}/>
           <Route path='/counter' element={<Counter/>}/>
+          <Route path='/poke' element={<PokeApi/>}/>
           <Route path='/segundo' element={<MiSegundoComponente/>}/>
           <Route path='/cart' element={<CartScreen/>}/>
           <Route path='/form' element={<Form/>}/>
